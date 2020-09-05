@@ -1,0 +1,11 @@
+<div class="description">
+    <p>If you have ever looked closely at the American roulette wheel you might have noticed that the numbers on the table are not in the same order as they are ordered on the wheel. See the images below.</p>
+
+    <img src="images/wheel.2da2ad49.png" />
+
+    <img src="images/table.336cd9ab.png" />
+
+    <p>This makes it difficult if you have a favorite number and would also like to bet on that number's neighbors. So that's what this app is meant to help with. If you click on a number the two nearest numbers on either side will be highlighted. The number clicked will be in a darker blue, the closest neighbors in a slightly lighter blue, and the farther neighbors in an even lighter blue.</p>
+</div>
+
+<div ng-controller="mainController"> <div class="table-row"> <div class="table-cel-top"> <number value="0"></number> </div> <div class="table-cel-top"> <number value="00"></number> </div> </div> <div class="table-row" ng-repeat="row in tableRows"> <div class="table-cel" ng-class="{'mar-right-1': !$first && !$last, 'mar-left-1': !$first && !$last}" ng-repeat="col in tableCols"> <number value="{{numberForRowCol(row, col)}}"></number> </div> </div> </div>

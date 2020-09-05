@@ -1,0 +1,39 @@
+#controls {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#controls select {
+    width: 170px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#container {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+
+.kineticjs-content {
+    display: block !important;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

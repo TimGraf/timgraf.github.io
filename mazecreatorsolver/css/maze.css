@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#description p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+#description a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+#solved {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 580px;
+}
+
+#unsolved {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 580px;
+}
+
+.cell {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 1px solid #000000;
+}
+
+.right-off {
+    border-right-color: #FFFFFF;
+}
+
+.left-off {
+    border-left-color: #FFFFFF;
+}
+
+.top-off {
+    border-top-color: #FFFFFF;
+}
+
+.bottom-off {
+    border-bottom-color: #FFFFFF;
+}
+
+.left-wall {
+    clear:left;
+}

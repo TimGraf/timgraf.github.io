@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="./css/maze.css">
+        <script src="./js/maze.js"></script>
+    </head>
+    <body>
+        <h1 class="text-center">Knight's Tour in JavaScript with Visualization</h1>
+        <p class="text-center">I was asked to create an algorithm to solve a maze on an interview once.  The maze was represented by a matrix of 1's and 0's where a 0 was a wall.  I failed miserably because solving algorithms in interviews is something I am not good at.  But the problem was intersting so I decided to create this project to not only solve a maze but also generate the maze to solve.  I also added some very simple ASCII graphics.</p>
+        <div id="container">
+            <script type="text/javascript">
+                var creater = new MAZE.MazeCreatorSolver(25, 25);
+
+                creater.createMaze();
+                creater.solveMaze();
+            </script>
+        </div>
+    </body>
+</html>

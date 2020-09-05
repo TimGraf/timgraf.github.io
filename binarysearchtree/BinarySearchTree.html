@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="./css/bst.css">
+        <script src="./js/binary_search_tree.js"></script>
+    </head>
+    <body>
+        <h1 class="text-center">Binary Search Tree Traversal and Visualization</h1>
+        <p class="text-center">I was inspired to do this in JavaScript after getting asked this question on several interviews.  I've never really found this exercise that interesting or useful in my day to day work.  However, adding the visualization for the BST made this more fun.</p>
+        <div id="container">
+        </div>
+        <div id="input-div">
+            Node value: <input type="text" name="value" id="value" onkeypress="keyPress();">
+            <button id="add-node" type="button" onclick="addNode();">Add Node</button>
+            <button type="button" onclick="clearTree()">Reset</button>
+        </div>
+    </body>
+</html>
